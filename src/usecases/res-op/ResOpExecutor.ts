@@ -1,7 +1,6 @@
-import { IDataObject, IExecuteFunctions, NodeApiError, NodeOperationError } from 'n8n-workflow';
-import { INodeDescrBase, IOperationBase, IResourceBase } from 'generator/usecases/res-op/types';
-import { NodeExecutorBase } from '../NodeExecutorBase';
-import { IExecItemDependance } from '../interfaces';
+import { NodeExecutorBase } from '../../NodeExecutorBase';
+import { IExecItemDependance } from '../../interfaces';
+import { INodeDescrBase, IOperationBase, IResourceBase } from './types';
 
 export abstract class ResOpExecutor<
 	TNodeDescr extends INodeDescrBase<TRes, TOp>,
