@@ -1,3 +1,5 @@
+
+
 {
   "name": "n8n-designpatterns",
   "version": "1.0.0",
@@ -5,7 +7,7 @@
   "main": "index.js",
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir dist",
-    "build": "rimraf lib && node scripts/build.js && npm run ts-types"
+    "build": "rimraf dist && node scripts/build.js && npm run ts-types"
   },
   "repository": {
     "type": "git",
