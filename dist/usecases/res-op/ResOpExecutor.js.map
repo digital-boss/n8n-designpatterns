@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../src/usecases/res-op/ResOpExecutor.ts"],
+  "sourcesContent": ["import { NodeExecutorBase } from '../../NodeExecutorBase';\nimport { IExecItemDependance } from '../../interfaces';\nimport { INodeDescrBase, IOperationBase, IResourceBase } from './types';\n\nexport abstract class ResOpExecutor<\n\tTNodeDescr extends INodeDescrBase<TRes, TOp>,\n\tTRes extends IResourceBase<TOp>,\n\tTOp extends IOperationBase,\n\tTExecFn extends IExecItemDependance,\n\tTClient=never,\n> extends NodeExecutorBase<TExecFn> {\n\n\toperation: TOp;\n\n\t// from c-tor:\n\tnodeDescr: TNodeDescr;\n\tresourceName: string;\n\toperationName: string;\n\tclient: TClient;\n\n\tconstructor (\n\t\tnodeDescr: TNodeDescr,\n\t\tresourceName: string,\n\t\topearationName: string,\n\t\texecFnHelper: TExecFn,\n\t\tclient: TClient,\n\t) {\n\t\tsuper(execFnHelper);\n\n\t\tthis.nodeDescr = nodeDescr;\n\t\tthis.resourceName = resourceName;\n\t\tthis.operationName = opearationName;\n\t\tthis.client = client;\n\n\t\tthis.operation = this.nodeDescr.resources[this.resourceName].operations[this.operationName];\n\t}\n}\n"],
+  "mappings": "4CAIO,GAAe,GAAf,aAMG,EAA0B,CAUnC,YACC,EACA,EACA,EACA,EACA,EACC,CACD,MAAM,CAAY,EAElB,KAAK,UAAY,EACjB,KAAK,aAAe,EACpB,KAAK,cAAgB,EACrB,KAAK,OAAS,EAEd,KAAK,UAAY,KAAK,UAAU,UAAU,KAAK,cAAc,WAAW,KAAK,cAC9E,CACD",
+  "names": []
+}

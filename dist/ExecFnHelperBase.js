@@ -1,0 +1,2 @@
+var a=class{constructor(e){this.itemIndex=0;this.execFns=e}updateIndex(e){this.itemIndex=e}getParam(e){return this.execFns.getNodeParameter(e,this.itemIndex)}getAllParams(){let e=this.execFns.getNode().parameters,n=Object.keys(e).map(t=>[t,this.getParam(t)]);return Object.fromEntries(n)}applyPathParams(e){let n=new RegExp("{[a-zA-Z_][a-zA-Z0-9]*}","g"),t=e.match(n);return t&&t.length>0&&t.forEach((s,c)=>{let r=this.getParam(s.slice(1,-1));r!==void 0&&(e=e.replace(s,r))}),e}};export{a as ExecFnHelperBase};
+//# sourceMappingURL=ExecFnHelperBase.js.map

@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../src/getNodeExecFn.ts"],
+  "sourcesContent": ["import { IDataObject, IExecuteFunctions, INodeExecutionData } from 'n8n-workflow';\nimport { ItemExecFn } from './interfaces';\n\nexport const getNodeExecFn = (execItem: ItemExecFn) => async function (this: IExecuteFunctions): Promise<INodeExecutionData[][]> {\n\tconst items = this.getInputData();\n\tconst length = items.length;\n\tconst returnData: IDataObject[] = [];\n\n\tfor (let itemIndex = 0; itemIndex < length; itemIndex++) {\n\t\ttry {\n\t\t\tconst result = await execItem(itemIndex);\n\t\t\tif (result.constructor === Array) {\n\t\t\t\treturnData.push.apply(returnData, result);\n\t\t\t} else {\n\t\t\t\treturnData.push(result);\n\t\t\t}\n\t\t} catch (error) {\n\t\t\tif (this.continueOnFail()) {\n\t\t\t\treturnData.push({ error: error.message });\n\t\t\t\tcontinue;\n\t\t\t}\n\t\t\tthrow error;\n\t\t}\n\t}\n\treturn [this.helpers.returnJsonArray(returnData)];\n};\n"],
+  "mappings": "AAGO,GAAM,GAAgB,AAAC,GAAyB,gBAA0E,CAEhI,GAAM,GAAS,AADD,KAAK,aAAa,EACX,OACf,EAA4B,CAAC,EAEnC,OAAS,GAAY,EAAG,EAAY,EAAQ,IAC3C,GAAI,CACH,GAAM,GAAS,KAAM,GAAS,CAAS,EACvC,AAAI,EAAO,cAAgB,MAC1B,EAAW,KAAK,MAAM,EAAY,CAAM,EAExC,EAAW,KAAK,CAAM,CAExB,OAAS,EAAP,CACD,GAAI,KAAK,eAAe,EAAG,CAC1B,EAAW,KAAK,CAAE,MAAO,EAAM,OAAQ,CAAC,EACxC,QACD,CACA,KAAM,EACP,CAED,MAAO,CAAC,KAAK,QAAQ,gBAAgB,CAAU,CAAC,CACjD",
+  "names": []
+}
