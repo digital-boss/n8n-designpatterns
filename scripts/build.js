@@ -11,7 +11,6 @@ const glob = require("tiny-glob");
       entryPoints: entryPoints, 
       bundle: true,
       platform: 'node',
-      target: ['node16.15.1'],
 
       bundle: true,
       sourcemap: true,
