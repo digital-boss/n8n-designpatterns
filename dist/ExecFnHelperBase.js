@@ -1,2 +1,59 @@
-var a=class{constructor(e){this.itemIndex=0;this.execFns=e}updateIndex(e){this.itemIndex=e}getParam(e){return this.execFns.getNodeParameter(e,this.itemIndex)}getAllParams(){let e=this.execFns.getNode().parameters,n=Object.keys(e).map(t=>[t,this.getParam(t)]);return Object.fromEntries(n)}applyPathParams(e){let n=new RegExp("{[a-zA-Z_][a-zA-Z0-9]*}","g"),t=e.match(n);return t&&t.length>0&&t.forEach((s,c)=>{let r=this.getParam(s.slice(1,-1));r!==void 0&&(e=e.replace(s,r))}),e}};export{a as ExecFnHelperBase};
-//# sourceMappingURL=ExecFnHelperBase.js.map
+"use strict";
+var __defProp = Object.defineProperty;
+var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
+var __getOwnPropNames = Object.getOwnPropertyNames;
+var __hasOwnProp = Object.prototype.hasOwnProperty;
+var __export = (target, all) => {
+  for (var name in all)
+    __defProp(target, name, { get: all[name], enumerable: true });
+};
+var __copyProps = (to, from, except, desc) => {
+  if (from && typeof from === "object" || typeof from === "function") {
+    for (let key of __getOwnPropNames(from))
+      if (!__hasOwnProp.call(to, key) && key !== except)
+        __defProp(to, key, { get: () => from[key], enumerable: !(desc = __getOwnPropDesc(from, key)) || desc.enumerable });
+  }
+  return to;
+};
+var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
+
+// src/ExecFnHelperBase.ts
+var ExecFnHelperBase_exports = {};
+__export(ExecFnHelperBase_exports, {
+  ExecFnHelperBase: () => ExecFnHelperBase
+});
+module.exports = __toCommonJS(ExecFnHelperBase_exports);
+var ExecFnHelperBase = class {
+  constructor(execFns) {
+    this.itemIndex = 0;
+    this.execFns = execFns;
+  }
+  updateIndex(itemIndex) {
+    this.itemIndex = itemIndex;
+  }
+  getParam(name) {
+    return this.execFns.getNodeParameter(name, this.itemIndex);
+  }
+  getAllParams() {
+    const params = this.execFns.getNode().parameters;
+    const paramsWithValues = Object.keys(params).map((name) => [name, this.getParam(name)]);
+    return Object.fromEntries(paramsWithValues);
+  }
+  applyPathParams(path) {
+    const rx = new RegExp("{[a-zA-Z_][a-zA-Z0-9]*}", "g");
+    const matches = path.match(rx);
+    if (matches && matches.length > 0) {
+      matches.forEach((match, i) => {
+        const value = this.getParam(match.slice(1, -1));
+        if (value !== void 0) {
+          path = path.replace(match, value);
+        }
+      });
+    }
+    return path;
+  }
+};
+// Annotate the CommonJS export names for ESM import in node:
+0 && (module.exports = {
+  ExecFnHelperBase
+});

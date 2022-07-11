@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../../src/usecases/ReturnParamsExecutor.ts"],
-  "sourcesContent": ["import { ExecFnHelperBase } from '../ExecFnHelperBase';\nimport { NodeExecutorBase } from '../NodeExecutorBase';\n\nexport class ReturnParamsExecutor extends NodeExecutorBase<ExecFnHelperBase> {\n\texecuteCurrentItem (): Promise<any> {\n\t\treturn Promise.resolve(this.node.getAllParams());\n\t}\n}\n"],
-  "mappings": "yCAGO,GAAM,GAAN,aAAmC,EAAmC,CAC5E,oBAAoC,CACnC,MAAO,SAAQ,QAAQ,KAAK,KAAK,aAAa,CAAC,CAChD,CACD",
-  "names": []
-}

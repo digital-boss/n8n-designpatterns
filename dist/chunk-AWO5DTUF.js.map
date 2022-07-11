@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../src/NodeExecutorBase.ts"],
-  "sourcesContent": ["import { IExecItemDependance, ItemExecFn } from './interfaces';\n\n/**\n * Node Executor\n */\nexport abstract class NodeExecutorBase<TExecFn extends IExecItemDependance> {\n\titemIndex = 0;\n\tnode: TExecFn;\n\n\tconstructor(node: TExecFn) {\n\t\tthis.node = node;\n\t}\n\n\texecute: ItemExecFn = async (itemIndex) => {\n\t\tthis.itemIndex = itemIndex;\n\t\tthis.node.updateIndex(this.itemIndex);\n\t\treturn this.executeCurrentItem();\n\t}\n\n\t/**\n\t * Implement here item execution logic\n\t */\n\tprotected abstract executeCurrentItem (): Promise<any>;\n}\n"],
-  "mappings": "AAKO,GAAe,GAAf,KAAqE,CAI3E,YAAY,EAAe,CAH3B,eAAY,EAOZ,aAAsB,KAAO,IAC5B,MAAK,UAAY,EACjB,KAAK,KAAK,YAAY,KAAK,SAAS,EAC7B,KAAK,mBAAmB,GAN/B,KAAK,KAAO,CACb,CAYD",
-  "names": []
-}

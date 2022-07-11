@@ -1,7 +1,0 @@
-{
-  "version": 3,
-  "sources": ["../src/StaticDataBase.ts"],
-  "sourcesContent": ["import { IExecuteFunctions } from 'n8n-workflow';\n\n/**\n * Base class to extend to implement Strongly typed WorkflowStaticData access.\n */\nexport abstract class StaticDataBase {\n\tprivate execFns: IExecuteFunctions;\n\n\tconstructor(execFns: IExecuteFunctions) {\n\t\tthis.execFns = execFns;\n\t}\n\n\tprotected get global() {\n\t\treturn this.execFns.getWorkflowStaticData('global');\n\t}\n\n\tprotected get node() {\n\t\treturn this.execFns.getWorkflowStaticData('node');\n\t}\n}\n"],
-  "mappings": "AAKO,GAAe,GAAf,KAA8B,CAGpC,YAAY,EAA4B,CACvC,KAAK,QAAU,CAChB,CAEA,GAAc,SAAS,CACtB,MAAO,MAAK,QAAQ,sBAAsB,QAAQ,CACnD,CAEA,GAAc,OAAO,CACpB,MAAO,MAAK,QAAQ,sBAAsB,MAAM,CACjD,CACD",
-  "names": []
-}
