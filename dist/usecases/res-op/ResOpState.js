@@ -17,13 +17,15 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/ExecFnHelperBase.ts
-var ExecFnHelperBase_exports = {};
-__export(ExecFnHelperBase_exports, {
-  ExecFnHelperBase: () => ExecFnHelperBase
+// src/usecases/res-op/ResOpState.ts
+var ResOpState_exports = {};
+__export(ResOpState_exports, {
+  ResOpState: () => ResOpState
 });
-module.exports = __toCommonJS(ExecFnHelperBase_exports);
-var ExecFnHelperBase = class {
+module.exports = __toCommonJS(ResOpState_exports);
+
+// src/StateBase.ts
+var StateBase = class {
   constructor(execFns) {
     this.itemIndex = 0;
     this.execFns = execFns;
@@ -53,7 +55,19 @@ var ExecFnHelperBase = class {
     return path;
   }
 };
+
+// src/usecases/res-op/ResOpState.ts
+var ResOpState = class extends StateBase {
+  constructor(execFns, nodeDescr, resourceName, opearationName) {
+    super(execFns);
+    this.nodeDescr = nodeDescr;
+    this.resourceName = resourceName;
+    this.operationName = opearationName;
+    this.resource = this.nodeDescr.resources[this.resourceName];
+    this.operation = this.resource.operations[this.operationName];
+  }
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  ExecFnHelperBase
+  ResOpState
 });

@@ -1,8 +1,8 @@
-import { IExecItemDependance, ItemExecFn } from './interfaces';
-export declare abstract class NodeExecutorBase<TExecFn extends IExecItemDependance> {
+import { IState, ItemExecFn } from './interfaces';
+export declare abstract class NodeExecutorBase<TState extends IState> {
     itemIndex: number;
-    node: TExecFn;
-    constructor(node: TExecFn);
+    state: TState;
+    constructor(node: TState);
     execute: ItemExecFn;
     protected abstract executeCurrentItem(): Promise<any>;
 }

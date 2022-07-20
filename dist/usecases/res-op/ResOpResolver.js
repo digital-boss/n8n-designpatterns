@@ -17,24 +17,37 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/NodeExecutorBase.ts
-var NodeExecutorBase_exports = {};
-__export(NodeExecutorBase_exports, {
-  NodeExecutorBase: () => NodeExecutorBase
+// src/usecases/res-op/ResOpResolver.ts
+var ResOpResolver_exports = {};
+__export(ResOpResolver_exports, {
+  ResOpResolver: () => ResOpResolver
 });
-module.exports = __toCommonJS(NodeExecutorBase_exports);
-var NodeExecutorBase = class {
-  constructor(node) {
-    this.itemIndex = 0;
-    this.execute = async (itemIndex) => {
-      this.itemIndex = itemIndex;
-      this.state.updateIndex(this.itemIndex);
-      return this.executeCurrentItem();
-    };
-    this.state = node;
+module.exports = __toCommonJS(ResOpResolver_exports);
+var ResOpResolver = class {
+  constructor(operations, resourceName, operationName, fallbackOp) {
+    this.operations = operations;
+    this.resourceName = resourceName;
+    this.operationName = operationName;
+    this.fallbackOp = fallbackOp;
+  }
+  getOperationMethod() {
+    const res = this.operations[this.resourceName];
+    if (!res) {
+      throw new Error(`There is no resource: '${this.resourceName}'`);
+    }
+    const op = res[this.operationName];
+    if (!op) {
+      if (this.fallbackOp) {
+        return this.fallbackOp;
+      } else {
+        throw new Error(`There is no operation: '${this.operationName}'`);
+      }
+    } else {
+      return op;
+    }
   }
 };
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  NodeExecutorBase
+  ResOpResolver
 });

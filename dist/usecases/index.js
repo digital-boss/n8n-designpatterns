@@ -17,12 +17,14 @@ var __copyProps = (to, from, except, desc) => {
 };
 var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: true }), mod);
 
-// src/NodeExecutorBase.ts
-var NodeExecutorBase_exports = {};
-__export(NodeExecutorBase_exports, {
-  NodeExecutorBase: () => NodeExecutorBase
+// src/usecases/index.ts
+var usecases_exports = {};
+__export(usecases_exports, {
+  ReturnParamsExecutor: () => ReturnParamsExecutor
 });
-module.exports = __toCommonJS(NodeExecutorBase_exports);
+module.exports = __toCommonJS(usecases_exports);
+
+// src/NodeExecutorBase.ts
 var NodeExecutorBase = class {
   constructor(node) {
     this.itemIndex = 0;
@@ -34,7 +36,14 @@ var NodeExecutorBase = class {
     this.state = node;
   }
 };
+
+// src/usecases/ReturnParamsExecutor.ts
+var ReturnParamsExecutor = class extends NodeExecutorBase {
+  executeCurrentItem() {
+    return Promise.resolve(this.state.getAllParams());
+  }
+};
 // Annotate the CommonJS export names for ESM import in node:
 0 && (module.exports = {
-  NodeExecutorBase
+  ReturnParamsExecutor
 });

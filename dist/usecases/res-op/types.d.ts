@@ -15,3 +15,4 @@ export interface IOperationBase {
     desc?: string;
 }
 export declare type TypeName = 'Root' | 'Resource' | 'Operation' | 'Param' | 'Option' | 'PropCollection';
+export declare type OperationFn<TClient, TState> = (client: TClient, state: TState) => Promise<any>;

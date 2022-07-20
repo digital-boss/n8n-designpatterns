@@ -30,17 +30,17 @@ var NodeExecutorBase = class {
     this.itemIndex = 0;
     this.execute = async (itemIndex) => {
       this.itemIndex = itemIndex;
-      this.node.updateIndex(this.itemIndex);
+      this.state.updateIndex(this.itemIndex);
       return this.executeCurrentItem();
     };
-    this.node = node;
+    this.state = node;
   }
 };
 
 // src/usecases/ReturnParamsExecutor.ts
 var ReturnParamsExecutor = class extends NodeExecutorBase {
   executeCurrentItem() {
-    return Promise.resolve(this.node.getAllParams());
+    return Promise.resolve(this.state.getAllParams());
   }
 };
 // Annotate the CommonJS export names for ESM import in node:

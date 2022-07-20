@@ -1,6 +1,6 @@
 import { IDataObject, IExecuteFunctions } from 'n8n-workflow';
-import { IExecItemDependance } from './interfaces';
-export declare class ExecFnHelperBase implements IExecItemDependance {
+import { IState } from './interfaces';
+export declare class StateBase implements IState {
     itemIndex: number;
     execFns: IExecuteFunctions;
     constructor(execFns: IExecuteFunctions);

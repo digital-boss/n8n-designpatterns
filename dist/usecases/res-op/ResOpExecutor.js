@@ -30,22 +30,23 @@ var NodeExecutorBase = class {
     this.itemIndex = 0;
     this.execute = async (itemIndex) => {
       this.itemIndex = itemIndex;
-      this.node.updateIndex(this.itemIndex);
+      this.state.updateIndex(this.itemIndex);
       return this.executeCurrentItem();
     };
-    this.node = node;
+    this.state = node;
   }
 };
 
 // src/usecases/res-op/ResOpExecutor.ts
 var ResOpExecutor = class extends NodeExecutorBase {
-  constructor(nodeDescr, resourceName, opearationName, execFnHelper, client) {
-    super(execFnHelper);
-    this.nodeDescr = nodeDescr;
-    this.resourceName = resourceName;
-    this.operationName = opearationName;
+  constructor(state, resolver, client) {
+    super(state);
+    this.resolver = resolver;
     this.client = client;
-    this.operation = this.nodeDescr.resources[this.resourceName].operations[this.operationName];
+  }
+  executeCurrentItem() {
+    const opFn = this.resolver.getOperationMethod();
+    return opFn(this.client, this.state);
   }
 };
 // Annotate the CommonJS export names for ESM import in node:
