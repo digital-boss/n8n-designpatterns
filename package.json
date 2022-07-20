@@ -1,11 +1,12 @@
 {
-  "name": "n8n-designpatterns",
+  "name": "@digital-boss/n8n-designpatterns",
   "version": "0.1.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir dist",
-    "build": "rimraf dist && node scripts/build.js && npm run ts-types"
+    "build": "rimraf dist && node scripts/build.js && npm run ts-types",
+    "deploy": "npm publish --access=public"
   },
   "repository": {
     "type": "git",
