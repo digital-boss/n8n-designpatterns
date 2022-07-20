@@ -3,12 +3,12 @@ import {
 	OptionsWithUri,
 } from 'request';
 import { IDataObject, IExecuteFunctions } from 'n8n-workflow';
-import { IExecItemDependance } from './interfaces';
+import { IState } from './interfaces';
 
 /**
  * IExecuteFunctions Helper - Logic for getting parameters.
  */
-export class ExecFnHelperBase implements IExecItemDependance {
+export class StateBase implements IState {
 	itemIndex = 0;
 	execFns: IExecuteFunctions;
 

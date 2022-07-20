@@ -1,37 +1,24 @@
-import { NodeExecutorBase } from '../../NodeExecutorBase';
-import { IExecItemDependance } from '../../interfaces';
-import { INodeDescrBase, IOperationBase, IResourceBase } from './types';
+import { IState } from "../../interfaces";
+import { NodeExecutorBase } from "../../NodeExecutorBase";
+import { ResOpResolver } from "./ResOpResolver";
+import { OperationFn } from "./types";
 
-export abstract class ResOpExecutor<
-	TNodeDescr extends INodeDescrBase<TRes, TOp>,
-	TRes extends IResourceBase<TOp>,
-	TOp extends IOperationBase,
-	TExecFn extends IExecItemDependance,
-	TClient=never,
-> extends NodeExecutorBase<TExecFn> {
+export class ResOpExecutor<
+  TState extends IState, 
+  TClient, 
+  TResName extends string
+> extends NodeExecutorBase<TState> {
 
-	operation: TOp;
-
-	// from c-tor:
-	nodeDescr: TNodeDescr;
-	resourceName: string;
-	operationName: string;
-	client: TClient;
-
-	constructor (
-		nodeDescr: TNodeDescr,
-		resourceName: string,
-		opearationName: string,
-		execFnHelper: TExecFn,
-		client: TClient,
+	constructor(
+		state: TState,
+		private resolver: ResOpResolver<OperationFn<TClient, TState>, TResName>,
+		private client: TClient,
 	) {
-		super(execFnHelper);
+		super(state);
+	}
 
-		this.nodeDescr = nodeDescr;
-		this.resourceName = resourceName;
-		this.operationName = opearationName;
-		this.client = client;
-
-		this.operation = this.nodeDescr.resources[this.resourceName].operations[this.operationName];
+	protected executeCurrentItem(): Promise<any> {
+		const opFn = this.resolver.getOperationMethod();
+		return opFn(this.client, this.state);
 	}
 }

@@ -33,3 +33,5 @@ export interface IOperationBase {
  * Type names to mark objects (nodes) inside Node Description object
  */
 export type TypeName = 'Root' | 'Resource' | 'Operation' | 'Param' | 'Option' | 'PropCollection';
+
+export type OperationFn<TClient, TState> = (client: TClient, state: TState) => Promise<any>;

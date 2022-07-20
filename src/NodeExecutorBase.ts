@@ -1,19 +1,19 @@
-import { IExecItemDependance, ItemExecFn } from './interfaces';
+import { IState, ItemExecFn } from './interfaces';
 
 /**
  * Node Executor
  */
-export abstract class NodeExecutorBase<TExecFn extends IExecItemDependance> {
+export abstract class NodeExecutorBase<TState extends IState> {
 	itemIndex = 0;
-	node: TExecFn;
+	state: TState;
 
-	constructor(node: TExecFn) {
-		this.node = node;
+	constructor(node: TState) {
+		this.state = node;
 	}
 
 	execute: ItemExecFn = async (itemIndex) => {
 		this.itemIndex = itemIndex;
-		this.node.updateIndex(this.itemIndex);
+		this.state.updateIndex(this.itemIndex);
 		return this.executeCurrentItem();
 	}
 
