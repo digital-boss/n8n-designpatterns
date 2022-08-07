@@ -6,7 +6,7 @@ import { IDataObject, IExecuteFunctions } from 'n8n-workflow';
 import { IState } from './interfaces';
 
 /**
- * IExecuteFunctions Helper - Logic for getting parameters.
+ * Access Node state, getting parameters.
  */
 export class StateBase implements IState {
 	itemIndex = 0;
