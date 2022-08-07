@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir dist",
-    "build": "rimraf dist && node esbuild.js && npm run ts-types"
+    "build": "rimraf dist && node esbuild.js && npm run ts-types",
+    "docs": "node -r esbuild-runner/register docs/tools/index.ts"
   },
   "repository": {
     "type": "git",
@@ -22,6 +23,7 @@
     "@types/jest": "^28.1.4",
     "@types/request": "^2.48.8",
     "esbuild": "^0.14.49",
+    "esbuild-runner": "^2.2.1",
     "rimraf": "^3.0.2",
     "tiny-glob": "^0.2.9",
     "typescript": "^4.7.4"

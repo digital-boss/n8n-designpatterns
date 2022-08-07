@@ -1,0 +1,497 @@
+{
+  "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/compare/step4-3-2...step4-3-3",
+  "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/compare/step4-3-2...step4-3-3",
+  "permalink_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/compare/digital-boss:1847b52...digital-boss:eef8ba9",
+  "diff_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/compare/step4-3-2...step4-3-3.diff",
+  "patch_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/compare/step4-3-2...step4-3-3.patch",
+  "base_commit": {
+    "sha": "1847b527dc813de36fe3b7dc595d94cefc7acde8",
+    "node_id": "C_kwDOHw6kqtoAKDE4NDdiNTI3ZGM4MTNkZTM2ZmUzYjdkYzU5NWQ5NGNlZmM3YWNkZTg",
+    "commit": {
+      "author": {
+        "name": "maestrow",
+        "email": "andrew.shmelev@gmail.com",
+        "date": "2022-08-06T15:35:15Z"
+      },
+      "committer": {
+        "name": "maestrow",
+        "email": "andrew.shmelev@gmail.com",
+        "date": "2022-08-06T15:35:15Z"
+      },
+      "message": "Merge branch 'step4-3-1' into step4-3-2",
+      "tree": {
+        "sha": "7a3d0fd5950bff004e709a9ef7b9e26c6f575f2d",
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/trees/7a3d0fd5950bff004e709a9ef7b9e26c6f575f2d"
+      },
+      "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+    "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+    "comments_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8/comments",
+    "author": {
+      "login": "maestrow",
+      "id": 671853,
+      "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maestrow",
+      "html_url": "https://github.com/maestrow",
+      "followers_url": "https://api.github.com/users/maestrow/followers",
+      "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+      "organizations_url": "https://api.github.com/users/maestrow/orgs",
+      "repos_url": "https://api.github.com/users/maestrow/repos",
+      "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maestrow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "maestrow",
+      "id": 671853,
+      "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maestrow",
+      "html_url": "https://github.com/maestrow",
+      "followers_url": "https://api.github.com/users/maestrow/followers",
+      "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+      "organizations_url": "https://api.github.com/users/maestrow/orgs",
+      "repos_url": "https://api.github.com/users/maestrow/repos",
+      "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maestrow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "41b18b024d013ce4d59591d909dbf09628a74c43",
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/41b18b024d013ce4d59591d909dbf09628a74c43",
+        "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/41b18b024d013ce4d59591d909dbf09628a74c43"
+      },
+      {
+        "sha": "2eca392a2e62b3417933f9b797ab493e8dcf4074",
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/2eca392a2e62b3417933f9b797ab493e8dcf4074",
+        "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/2eca392a2e62b3417933f9b797ab493e8dcf4074"
+      }
+    ]
+  },
+  "merge_base_commit": {
+    "sha": "1847b527dc813de36fe3b7dc595d94cefc7acde8",
+    "node_id": "C_kwDOHw6kqtoAKDE4NDdiNTI3ZGM4MTNkZTM2ZmUzYjdkYzU5NWQ5NGNlZmM3YWNkZTg",
+    "commit": {
+      "author": {
+        "name": "maestrow",
+        "email": "andrew.shmelev@gmail.com",
+        "date": "2022-08-06T15:35:15Z"
+      },
+      "committer": {
+        "name": "maestrow",
+        "email": "andrew.shmelev@gmail.com",
+        "date": "2022-08-06T15:35:15Z"
+      },
+      "message": "Merge branch 'step4-3-1' into step4-3-2",
+      "tree": {
+        "sha": "7a3d0fd5950bff004e709a9ef7b9e26c6f575f2d",
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/trees/7a3d0fd5950bff004e709a9ef7b9e26c6f575f2d"
+      },
+      "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+      "comment_count": 0,
+      "verification": {
+        "verified": false,
+        "reason": "unsigned",
+        "signature": null,
+        "payload": null
+      }
+    },
+    "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+    "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+    "comments_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8/comments",
+    "author": {
+      "login": "maestrow",
+      "id": 671853,
+      "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maestrow",
+      "html_url": "https://github.com/maestrow",
+      "followers_url": "https://api.github.com/users/maestrow/followers",
+      "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+      "organizations_url": "https://api.github.com/users/maestrow/orgs",
+      "repos_url": "https://api.github.com/users/maestrow/repos",
+      "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maestrow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "committer": {
+      "login": "maestrow",
+      "id": 671853,
+      "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+      "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/maestrow",
+      "html_url": "https://github.com/maestrow",
+      "followers_url": "https://api.github.com/users/maestrow/followers",
+      "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+      "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+      "organizations_url": "https://api.github.com/users/maestrow/orgs",
+      "repos_url": "https://api.github.com/users/maestrow/repos",
+      "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/maestrow/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "parents": [
+      {
+        "sha": "41b18b024d013ce4d59591d909dbf09628a74c43",
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/41b18b024d013ce4d59591d909dbf09628a74c43",
+        "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/41b18b024d013ce4d59591d909dbf09628a74c43"
+      },
+      {
+        "sha": "2eca392a2e62b3417933f9b797ab493e8dcf4074",
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/2eca392a2e62b3417933f9b797ab493e8dcf4074",
+        "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/2eca392a2e62b3417933f9b797ab493e8dcf4074"
+      }
+    ]
+  },
+  "status": "ahead",
+  "ahead_by": 3,
+  "behind_by": 0,
+  "total_commits": 3,
+  "commits": [
+    {
+      "sha": "1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54",
+      "node_id": "C_kwDOHw6kqtoAKDFkZmRmMTIxNmNmNjBmYTBkN2Y5NzAwYTZkNGIyYTQ0ODkzYjVlNTQ",
+      "commit": {
+        "author": {
+          "name": "maestrow",
+          "email": "andrew.shmelev@gmail.com",
+          "date": "2022-08-06T12:06:58Z"
+        },
+        "committer": {
+          "name": "maestrow",
+          "email": "andrew.shmelev@gmail.com",
+          "date": "2022-08-06T12:06:58Z"
+        },
+        "message": "Extract operation metadata to node description (yaml)",
+        "tree": {
+          "sha": "5662e2029e7c0bd64b202b0b64e3eb92224e83ed",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/trees/5662e2029e7c0bd64b202b0b64e3eb92224e83ed"
+        },
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/commits/1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54",
+      "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54",
+      "comments_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54/comments",
+      "author": {
+        "login": "maestrow",
+        "id": 671853,
+        "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maestrow",
+        "html_url": "https://github.com/maestrow",
+        "followers_url": "https://api.github.com/users/maestrow/followers",
+        "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+        "organizations_url": "https://api.github.com/users/maestrow/orgs",
+        "repos_url": "https://api.github.com/users/maestrow/repos",
+        "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maestrow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "maestrow",
+        "id": 671853,
+        "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maestrow",
+        "html_url": "https://github.com/maestrow",
+        "followers_url": "https://api.github.com/users/maestrow/followers",
+        "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+        "organizations_url": "https://api.github.com/users/maestrow/orgs",
+        "repos_url": "https://api.github.com/users/maestrow/repos",
+        "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maestrow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "41b18b024d013ce4d59591d909dbf09628a74c43",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/41b18b024d013ce4d59591d909dbf09628a74c43",
+          "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/41b18b024d013ce4d59591d909dbf09628a74c43"
+        }
+      ]
+    },
+    {
+      "sha": "a0bdf5f9dfbba7837590e009d45a6a50c650ceab",
+      "node_id": "C_kwDOHw6kqtoAKGEwYmRmNWY5ZGZiYmE3ODM3NTkwZTAwOWQ0NWE2YTUwYzY1MGNlYWI",
+      "commit": {
+        "author": {
+          "name": "maestrow",
+          "email": "andrew.shmelev@gmail.com",
+          "date": "2022-08-06T15:38:16Z"
+        },
+        "committer": {
+          "name": "maestrow",
+          "email": "andrew.shmelev@gmail.com",
+          "date": "2022-08-06T15:38:16Z"
+        },
+        "message": "Swap operation args: first is client",
+        "tree": {
+          "sha": "df6ae84f6fa81ce83fc3569923b5194d88c0ddb9",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/trees/df6ae84f6fa81ce83fc3569923b5194d88c0ddb9"
+        },
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/commits/a0bdf5f9dfbba7837590e009d45a6a50c650ceab",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/a0bdf5f9dfbba7837590e009d45a6a50c650ceab",
+      "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/a0bdf5f9dfbba7837590e009d45a6a50c650ceab",
+      "comments_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/a0bdf5f9dfbba7837590e009d45a6a50c650ceab/comments",
+      "author": {
+        "login": "maestrow",
+        "id": 671853,
+        "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maestrow",
+        "html_url": "https://github.com/maestrow",
+        "followers_url": "https://api.github.com/users/maestrow/followers",
+        "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+        "organizations_url": "https://api.github.com/users/maestrow/orgs",
+        "repos_url": "https://api.github.com/users/maestrow/repos",
+        "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maestrow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "maestrow",
+        "id": 671853,
+        "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maestrow",
+        "html_url": "https://github.com/maestrow",
+        "followers_url": "https://api.github.com/users/maestrow/followers",
+        "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+        "organizations_url": "https://api.github.com/users/maestrow/orgs",
+        "repos_url": "https://api.github.com/users/maestrow/repos",
+        "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maestrow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54",
+          "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/1dfdf1216cf60fa0d7f9700a6d4b2a44893b5e54"
+        }
+      ]
+    },
+    {
+      "sha": "eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "node_id": "C_kwDOHw6kqtoAKGVlZjhiYTllYmNiZDRkZTY3ZDRkMzM3YzIzOTllZmNlZDNhNDU5MTY",
+      "commit": {
+        "author": {
+          "name": "maestrow",
+          "email": "andrew.shmelev@gmail.com",
+          "date": "2022-08-06T15:47:10Z"
+        },
+        "committer": {
+          "name": "maestrow",
+          "email": "andrew.shmelev@gmail.com",
+          "date": "2022-08-06T15:47:10Z"
+        },
+        "message": "Merge branch 'step4-3-2' into step4-3-3",
+        "tree": {
+          "sha": "df6ae84f6fa81ce83fc3569923b5194d88c0ddb9",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/trees/df6ae84f6fa81ce83fc3569923b5194d88c0ddb9"
+        },
+        "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/git/commits/eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+        "comment_count": 0,
+        "verification": {
+          "verified": false,
+          "reason": "unsigned",
+          "signature": null,
+          "payload": null
+        }
+      },
+      "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "comments_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/eef8ba9ebcbd4de67d4d337c2399efced3a45916/comments",
+      "author": {
+        "login": "maestrow",
+        "id": 671853,
+        "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maestrow",
+        "html_url": "https://github.com/maestrow",
+        "followers_url": "https://api.github.com/users/maestrow/followers",
+        "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+        "organizations_url": "https://api.github.com/users/maestrow/orgs",
+        "repos_url": "https://api.github.com/users/maestrow/repos",
+        "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maestrow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "committer": {
+        "login": "maestrow",
+        "id": 671853,
+        "node_id": "MDQ6VXNlcjY3MTg1Mw==",
+        "avatar_url": "https://avatars.githubusercontent.com/u/671853?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/maestrow",
+        "html_url": "https://github.com/maestrow",
+        "followers_url": "https://api.github.com/users/maestrow/followers",
+        "following_url": "https://api.github.com/users/maestrow/following{/other_user}",
+        "gists_url": "https://api.github.com/users/maestrow/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/maestrow/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/maestrow/subscriptions",
+        "organizations_url": "https://api.github.com/users/maestrow/orgs",
+        "repos_url": "https://api.github.com/users/maestrow/repos",
+        "events_url": "https://api.github.com/users/maestrow/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/maestrow/received_events",
+        "type": "User",
+        "site_admin": false
+      },
+      "parents": [
+        {
+          "sha": "a0bdf5f9dfbba7837590e009d45a6a50c650ceab",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/a0bdf5f9dfbba7837590e009d45a6a50c650ceab",
+          "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/a0bdf5f9dfbba7837590e009d45a6a50c650ceab"
+        },
+        {
+          "sha": "1847b527dc813de36fe3b7dc595d94cefc7acde8",
+          "url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/commits/1847b527dc813de36fe3b7dc595d94cefc7acde8",
+          "html_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/commit/1847b527dc813de36fe3b7dc595d94cefc7acde8"
+        }
+      ]
+    }
+  ],
+  "files": [
+    {
+      "sha": "feea7e39878466a826b58f1a4c6a8b46f52b779d",
+      "filename": "nodes/FakeCrm/FakeCrm.node.ts",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 1,
+      "changes": 2,
+      "blob_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/blob/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2FFakeCrm.node.ts",
+      "raw_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2FFakeCrm.node.ts",
+      "contents_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/contents/nodes%2FFakeCrm%2FFakeCrm.node.ts?ref=eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "patch": "@@ -79,7 +79,7 @@ const getItemExecutor = async (execFns: IExecuteFunctions) => {\n \n \tconst creds = await (execFns.getCredentials('fakeCrmApi')) as unknown as IFakeCrmApiCredentials\n \tconst httpClient = new HttpClientBasic(execFns.helpers.request, creds);\n-\tconst state = new State(execFns);\n+\tconst state = new State(execFns, nodeDescr, resourceName, operationName);\n \n \tconst resource = operationMethods[resourceName];\n \tif (!resource) {"
+    },
+    {
+      "sha": "f0f1208a43d9fe55bf5ac6337b783fdda452e34a",
+      "filename": "nodes/FakeCrm/backend/State.ts",
+      "status": "modified",
+      "additions": 62,
+      "deletions": 2,
+      "changes": 64,
+      "blob_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/blob/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fbackend%2FState.ts",
+      "raw_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fbackend%2FState.ts",
+      "contents_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/contents/nodes%2FFakeCrm%2Fbackend%2FState.ts?ref=eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "patch": "@@ -4,11 +4,12 @@ import {\n } from 'request';\n import { IDataObject, IExecuteFunctions } from 'n8n-workflow';\n import { IState } from './interfaces';\n+import { INodeDescr, IOperation, IResource } from '../descriptions/types';\n \n /**\n- * Access Node state, getting parameters.\n+ * Base class for state\n  */\n-export class State implements IState {\n+class StateBase implements IState {\n \titemIndex = 0;\n \texecFns: IExecuteFunctions;\n \n@@ -25,4 +26,63 @@ export class State implements IState {\n \tgetParam (name: string): any {\n \t\treturn this.execFns.getNodeParameter(name, this.itemIndex);\n \t}\n+\n+\tapplyPathParams (path: string): string {\n+\t\tconst rx = new RegExp('{[a-zA-Z_][a-zA-Z0-9]*}', 'g');\n+\t\tconst matches = path.match(rx);\n+\t\tif (matches && matches.length > 0) {\n+\t\t\tmatches.forEach((match, i) => {\n+\t\t\t\tconst value = this.getParam(match.slice(1, -1)) as string;\n+\t\t\t\tif (value !== undefined) {\n+\t\t\t\t\tpath = path.replace(match, value);\n+\t\t\t\t}\n+\t\t\t});\n+\t\t}\n+\t\treturn path;\n+\t}\n+}\n+\n+/**\n+ * State for Resource-Operation Node\n+ */\n+abstract class ResOpState extends StateBase {\n+\n+\tresource: IResource;\n+\toperation: IOperation;\n+\n+\t// from c-tor:\n+\tnodeDescr: INodeDescr;\n+\tresourceName: string;\n+\toperationName: string;\n+\n+\tconstructor (\n+\t\texecFns: IExecuteFunctions,\n+\t\tnodeDescr: INodeDescr,\n+\t\tresourceName: string,\n+\t\topearationName: string,\n+\t) {\n+\t\tsuper(execFns);\n+\n+\t\tthis.nodeDescr = nodeDescr;\n+\t\tthis.resourceName = resourceName;\n+\t\tthis.operationName = opearationName;\n+\n+\t\tthis.resource = this.nodeDescr.resources[this.resourceName]\n+\t\tthis.operation = this.resource.operations[this.operationName];\n+\t}\n+}\n+\n+/**\n+ * Access Node state, getting parameters.\n+ */\n+ export class State extends ResOpState {\n+\n+\tbuildRequest (coreOpts: CoreOptions = {}): OptionsWithUri {\n+\t\tconst pathWithValues = this.applyPathParams(this.operation.path);\n+\t\treturn Object.assign({\n+\t\t\tmethod: this.operation.method,\n+\t\t\turi: pathWithValues,\n+\t\t\tjson: true,\n+\t\t}, coreOpts);\n+\t}\n }"
+    },
+    {
+      "sha": "067cf54369176d9bd2899860697cb6e5e7a5cccb",
+      "filename": "nodes/FakeCrm/backend/operations.ts",
+      "status": "modified",
+      "additions": 14,
+      "deletions": 71,
+      "changes": 85,
+      "blob_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/blob/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fbackend%2Foperations.ts",
+      "raw_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fbackend%2Foperations.ts",
+      "contents_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/contents/nodes%2FFakeCrm%2Fbackend%2Foperations.ts?ref=eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "patch": "@@ -16,115 +16,58 @@ const getTags = (param: IDataObject): string[] => {\n const post: OpContainer = {\n \n \tcreate: (client, state) => {\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'POST',\n+\t\treturn client.request(state.buildRequest({\n \t\t\tbody: Object.assign({\n \t\t\t\ttags: getTags(state.getParam('tags'))\n \t\t\t}, state.getParam('additionalFields')),\n-\t\t\turi: '/post',\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\t}));\n \t},\n \n \tupdate: (client, state) => {\n-\t\tconst id = state.getParam('id');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'PUT',\n+\t\treturn client.request(state.buildRequest({\n \t\t\tbody: Object.assign({\n \t\t\t\ttags: getTags(state.getParam('tags'))\n \t\t\t}, state.getParam('additionalFields')),\n-\t\t\turi: `/post/${id}`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts).then(res => res || {});\n+\t\t})).then(res => res || {});\n \t},\n \n \tget: (client, state) => {\n-\t\tconst id = state.getParam('id');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'GET',\n-\t\t\turi: `/post/${id}`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\treturn client.request(state.buildRequest());\n \t},\n \n \tgetAll: (client, state) => {\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'GET',\n-\t\t\turi: `/post`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\treturn client.request(state.buildRequest());\n \t},\n \n \tdelete: (client, state) => {\n-\t\tconst id = state.getParam('id');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'DELETE',\n-\t\t\turi: `/post/${id}`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\treturn client.request(state.buildRequest());\n \t}\n }\n \n const comment: OpContainer = {\n \n \tcreate: (client, state) => {\n-\t\tconst postId = state.getParam('postId');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'POST',\n+\t\treturn client.request(state.buildRequest({\n \t\t\tbody: state.getParam('additionalFields'),\n-\t\t\turi: `/post/${postId}/comment`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\t}));\n \t},\n \n \tupdate: (client, state) => {\n-\t\tconst postId = state.getParam('postId');\n-\t\tconst id = state.getParam('id');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'PUT',\n+\t\treturn client.request(state.buildRequest({\n \t\t\tbody: state.getParam('additionalFields'),\n-\t\t\turi: `/post/${postId}/comment/${id}`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts).then(res => res || {});\n+\t\t})).then(res => res || {});\n \t},\n \n \tget: (client, state) => {\n-\t\tconst postId = state.getParam('postId');\n-\t\tconst id = state.getParam('id');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'GET',\n-\t\t\turi: `/post/${postId}/comment/${id}`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\treturn client.request(state.buildRequest());\n \t},\n \n \tgetAll:(client, state) => {\n-\t\tconst postId = state.getParam('postId');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'GET',\n-\t\t\turi: `/post/${postId}/comment`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\treturn client.request(state.buildRequest());\n \t},\n \n \tdelete: (client, state) => {\n-\t\tconst postId = state.getParam('postId');\n-\t\tconst id = state.getParam('id');\n-\t\tconst opts: OptionsWithUri = {\n-\t\t\tmethod: 'DELETE',\n-\t\t\turi: `/post/${postId}/comment/${id}`,\n-\t\t\tjson: true,\n-\t\t}\n-\t\treturn client.request(opts);\n+\t\treturn client.request(state.buildRequest());\n \t}\n }\n "
+    },
+    {
+      "sha": "60b2c1430cba0f1441e2ef1b9773598cb9b9ccbe",
+      "filename": "nodes/FakeCrm/descriptions/FakeCrm.description.yaml",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "changes": 20,
+      "blob_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/blob/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fdescriptions%2FFakeCrm.description.yaml",
+      "raw_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fdescriptions%2FFakeCrm.description.yaml",
+      "contents_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/contents/nodes%2FFakeCrm%2Fdescriptions%2FFakeCrm.description.yaml?ref=eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "patch": "@@ -5,6 +5,8 @@ resources:\n     operations:\n \n       create:\n+        method: POST\n+        path: /post\n         params:\n           - name: tags\n             type: fixedCollection\n@@ -22,6 +24,8 @@ resources:\n               - Post.content\n \n       update:\n+        method: PUT\n+        path: /post/{id}\n         params:\n           - Post.id\n           - name: tags\n@@ -40,13 +44,19 @@ resources:\n               - Post.content\n \n       get:\n+        method: GET\n+        path: /post/{id}\n         params:\n           - Post.id\n \n       getAll:\n+        method: GET\n+        path: /post\n         params: []\n \n       delete:\n+        method: DELETE\n+        path: /post/{id}\n         params:\n           - Post.id\n \n@@ -56,6 +66,8 @@ resources:\n     operations:\n \n       create:\n+        method: POST\n+        path: /post/{postId}/comment\n         params:\n           - Comment.postId\n           - $link: cmn.additionalFields\n@@ -65,6 +77,8 @@ resources:\n               - Comment.content\n \n       update:\n+        method: PUT\n+        path: /post/{postId}/comment/{id}\n         params:\n           - Comment.postId\n           - Comment.id\n@@ -75,15 +89,21 @@ resources:\n               - Comment.content\n \n       get:\n+        method: GET\n+        path: /post/{postId}/comment/{id}\n         params:\n           - Comment.postId\n           - Comment.id\n \n       getAll:\n+        method: GET\n+        path: /post/{postId}/comment\n         params:\n           - Comment.postId\n \n       delete:\n+        method: DELETE\n+        path: /post/{postId}/comment/{id}\n         params:\n           - Comment.postId\n           - Comment.id"
+    },
+    {
+      "sha": "876c537b544247be84c4fb3d7c1ada89e7628b5c",
+      "filename": "nodes/FakeCrm/descriptions/generated/nodeDescr.ts",
+      "status": "modified",
+      "additions": 20,
+      "deletions": 0,
+      "changes": 20,
+      "blob_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/blob/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fdescriptions%2Fgenerated%2FnodeDescr.ts",
+      "raw_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fdescriptions%2Fgenerated%2FnodeDescr.ts",
+      "contents_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/contents/nodes%2FFakeCrm%2Fdescriptions%2Fgenerated%2FnodeDescr.ts?ref=eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "patch": "@@ -8,6 +8,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t'defaultOperation': 'getAll',\n \t\t\t'operations': {\n \t\t\t\t'create': {\n+\t\t\t\t\t'method': 'POST',\n+\t\t\t\t\t'path': '/post',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'tags',\n@@ -69,6 +71,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Create',\n \t\t\t\t},\n \t\t\t\t'update': {\n+\t\t\t\t\t'method': 'PUT',\n+\t\t\t\t\t'path': '/post/{id}',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'id',\n@@ -137,6 +141,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Update',\n \t\t\t\t},\n \t\t\t\t'get': {\n+\t\t\t\t\t'method': 'GET',\n+\t\t\t\t\t'path': '/post/{id}',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'id',\n@@ -149,10 +155,14 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Get',\n \t\t\t\t},\n \t\t\t\t'getAll': {\n+\t\t\t\t\t'method': 'GET',\n+\t\t\t\t\t'path': '/post',\n \t\t\t\t\t'params': [],\n \t\t\t\t\t'display': 'Get All',\n \t\t\t\t},\n \t\t\t\t'delete': {\n+\t\t\t\t\t'method': 'DELETE',\n+\t\t\t\t\t'path': '/post/{id}',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'id',\n@@ -171,6 +181,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t'defaultOperation': 'getAll',\n \t\t\t'operations': {\n \t\t\t\t'create': {\n+\t\t\t\t\t'method': 'POST',\n+\t\t\t\t\t'path': '/post/{postId}/comment',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'postId',\n@@ -210,6 +222,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Create',\n \t\t\t\t},\n \t\t\t\t'update': {\n+\t\t\t\t\t'method': 'PUT',\n+\t\t\t\t\t'path': '/post/{postId}/comment/{id}',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'postId',\n@@ -256,6 +270,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Update',\n \t\t\t\t},\n \t\t\t\t'get': {\n+\t\t\t\t\t'method': 'GET',\n+\t\t\t\t\t'path': '/post/{postId}/comment/{id}',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'postId',\n@@ -275,6 +291,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Get',\n \t\t\t\t},\n \t\t\t\t'getAll': {\n+\t\t\t\t\t'method': 'GET',\n+\t\t\t\t\t'path': '/post/{postId}/comment',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'postId',\n@@ -287,6 +305,8 @@ export const nodeDescr: INodeDescr = {\n \t\t\t\t\t'display': 'Get All',\n \t\t\t\t},\n \t\t\t\t'delete': {\n+\t\t\t\t\t'method': 'DELETE',\n+\t\t\t\t\t'path': '/post/{postId}/comment/{id}',\n \t\t\t\t\t'params': [\n \t\t\t\t\t\t{\n \t\t\t\t\t\t\t'name': 'postId',"
+    },
+    {
+      "sha": "6c776de71945960a504e28b61651bb0d09880b57",
+      "filename": "nodes/FakeCrm/descriptions/types.ts",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 2,
+      "changes": 4,
+      "blob_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/blob/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fdescriptions%2Ftypes.ts",
+      "raw_url": "https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/eef8ba9ebcbd4de67d4d337c2399efced3a45916/nodes%2FFakeCrm%2Fdescriptions%2Ftypes.ts",
+      "contents_url": "https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/contents/nodes%2FFakeCrm%2Fdescriptions%2Ftypes.ts?ref=eef8ba9ebcbd4de67d4d337c2399efced3a45916",
+      "patch": "@@ -9,8 +9,8 @@ export interface IResource extends IResourceBase<IOperation> {\n }\n \n export interface IOperation extends IOperationBase {\n-\tmethod?: string;\n-\tpath?: string;\n+\tmethod: string;\n+\tpath: string;\n \tresponseMap?: string | string[];\n }\n "
+    }
+  ]
+}
