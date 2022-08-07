@@ -5,7 +5,6 @@
 - [nodes/FakeCrm/descriptions/FakeCrm.description.yaml](#nodes/FakeCrm/descriptions/FakeCrm.description.yaml)
 - [nodes/FakeCrm/descriptions/gen.ts](#nodes/FakeCrm/descriptions/gen.ts)
 - [nodes/FakeCrm/descriptions/types.ts](#nodes/FakeCrm/descriptions/types.ts)
-- [package-lock.json](#package-lock.json)
 
 ## credentials/FakeCrmApi.credentials.ts<a name="credentials/FakeCrmApi.credentials.ts"></a>
 
@@ -494,12 +493,4 @@
  	responseMap?: string | string[];
  }
  
-```
-
-## package-lock.json<a name="package-lock.json"></a>
-
-- [package-lock.json](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/package-lock.json) added [18343,0,18343]
-
-```diff
-undefined
 ```

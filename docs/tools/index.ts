@@ -114,7 +114,9 @@ ${v.patch}
 // Main
 
 const fileFilter = (f: IFile) => {
-  return !f.filename.endsWith('gen.js') && !f.filename.match(/\/generated\//);
+  return !f.filename.endsWith('gen.js') 
+    && f.filename !== 'package-lock.json'
+    && !f.filename.match(/\/generated\//);
 }
 
 const baseDir = 'docs/generated';

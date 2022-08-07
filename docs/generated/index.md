@@ -7,7 +7,6 @@
 - [nodes/FakeCrm/descriptions/FakeCrm.description.yaml](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/nodes%2FFakeCrm%2Fdescriptions%2FFakeCrm.description.yaml) modified [59,233,292]
 - [nodes/FakeCrm/descriptions/gen.ts](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/nodes%2FFakeCrm%2Fdescriptions%2Fgen.ts) modified [5,1,6]
 - [nodes/FakeCrm/descriptions/types.ts](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/nodes%2FFakeCrm%2Fdescriptions%2Ftypes.ts) modified [2,2,4]
-- [package-lock.json](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/package-lock.json) added [18343,0,18343]
 
 ## step2...step3-1
 
