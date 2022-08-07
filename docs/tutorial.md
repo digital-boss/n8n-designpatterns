@@ -187,6 +187,10 @@ Changes:
 - [credentials/FakeCrmApi.credentials.ts](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/credentials%2FFakeCrmApi.credentials.ts) modified [4,24,28]
 - [nodes/FakeCrm/FakeCrm.node.ts](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/06e7eb5cb2927253d74abe775d55b527cfb3593a/nodes%2FFakeCrm%2FFakeCrm.node.ts) modified [4,4,8]. Add generated description properties to FakeCrm class
 
+UI of our Node and test response, containing list of all parameters with values: 
+
+![step2](images/step2.png)
+
 # Step 3: Implementing without Separation of Concerns
 
 Split this step into two and at step 3.1 just add a method structure. And at step 3.2 fill structure with logic.
@@ -210,6 +214,12 @@ Changes:
 - [nodes/FakeCrm/FakeCrm.node.ts](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/13f50acf40a51076ea7960a3b44228a30b52d6e0/nodes%2FFakeCrm%2FFakeCrm.node.ts) modified [67,11,78] [prev](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/23518e90acee841708f2ea035012defd527f7268/nodes%2FFakeCrm%2FFakeCrm.node.ts)
 - [nodes/FakeCrm/GenericFunctions.ts](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/13f50acf40a51076ea7960a3b44228a30b52d6e0/nodes%2FFakeCrm%2FGenericFunctions.ts) added [45,0,45]
 - [workflows/test.json](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/raw/13f50acf40a51076ea7960a3b44228a30b52d6e0/workflows%2Ftest.json) added [321,0,321]
+
+This is how provided test workflow can look:
+
+![wf](images/n8n-workflow.png)
+
+Start FakeCRM API and execute workflow to ensure that implemented Node works correctly.
 
 ## Analyze
 
