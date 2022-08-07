@@ -1,4 +1,4 @@
-# step4-4...step5 [compare](https://api.github.com/repos/digital-boss/n8n-nodes-designpatterns-tutorial/compare/step4-4...step5)
+# step4-4...step5 [compare](https://github.com/digital-boss/n8n-nodes-designpatterns-tutorial/compare/step4-4...step5)
 
 - [nodes/FakeCrm/FakeCrm.node.ts](#nodes/FakeCrm/FakeCrm.node.ts)
 - [nodes/FakeCrm/backend/HttpClientBasic.ts](#nodes/FakeCrm/backend/HttpClientBasic.ts)

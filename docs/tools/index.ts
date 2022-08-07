@@ -76,7 +76,7 @@ const trIndex: Transformers<Context> = [
   [match("::Root / *"), (v, ctx) => {
     const caption = v.url.match(/\/[^/]+$/)[0].slice(1);
     const filename = caption.replace('...', '__') + '.md';
-    return `## ${caption}\n\n[gh compare](${v.url}) | [go to details](${filename})\n\n${v.files}`;
+    return `## ${caption}\n\n[gh compare](${v.html_url}) | [go to details](${filename})\n\n${v.files}`;
   }],
   [match("::Root"), (v, ctx) => {
     return v.join('\n\n');
@@ -106,7 +106,7 @@ ${v.patch}
   [match("::Root / *"), (v, ctx) => {
     const caption = v.url.match(/\/[^/]+$/)[0].slice(1);
     const filename = caption.replace('...', '__') + '.md';
-    const content = `# ${caption} [compare](${v.url})\n\n${v.files}`;
+    const content = `# ${caption} [compare](${v.html_url})\n\n${v.files}`;
     return [filename, content];
   }],
 ];
