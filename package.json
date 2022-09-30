@@ -27,7 +27,6 @@
     "typescript": "^4.7.4"
   },
   "dependencies": {
-    "n8n-core": "~0.119.0",
-    "request": "^2.88.2"
+    "n8n-core": "~0.135.2"
   }
 }

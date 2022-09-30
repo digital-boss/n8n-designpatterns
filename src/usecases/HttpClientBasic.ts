@@ -1,6 +1,8 @@
 import { IHttpClient } from '../interfaces';
-import { IDataObject } from 'n8n-workflow';
-import { OptionsWithUri } from 'request';
+import {
+	IDataObject,
+	IHttpRequestOptions
+} from 'n8n-workflow';
 
 export interface IBasicAuth {
 	url: string;
@@ -8,7 +10,7 @@ export interface IBasicAuth {
 	password: string;
 }
 
-type RequestFn = (uriOrObject: string | IDataObject | any, options?: IDataObject) => Promise<any>;
+type RequestFn = (urlOrObject: string | IDataObject | any, options?: IDataObject) => Promise<any>;
 
 const normalizeUrl = (url: string) => url.endsWith('/') ? url.slice(0, -1) : url;
 
@@ -25,8 +27,8 @@ export class HttpClientBasic implements IHttpClient {
 		this.url = normalizeUrl(this.creds.url);
 	}
 
-	request (options: OptionsWithUri) {
+	request (options: IHttpRequestOptions) {
 		options.headers!['Authorization'] = `Basic ${this.token}`;
-		return this.requestFn(Object.assign({}, options, { uri: this.url + options.uri }));
+		return this.requestFn(Object.assign({}, options, { url: this.url + options.url }));
 	};
 }
