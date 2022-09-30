@@ -1,7 +1,3 @@
-import {
-	CoreOptions,
-	OptionsWithUri,
-} from 'request';
 import { IDataObject, IExecuteFunctions } from 'n8n-workflow';
 import { IState } from './interfaces';
 
