@@ -42,4 +42,15 @@ export class StateBase implements IState {
 		return path;
 	}
 
+	isParamExists (name: string): boolean {
+		return name in this.execFns.getNode().parameters;
+	}
+
+	tryGetParam (name: string) {
+		if (this.isParamExists(name)) {
+			return this.getParam(name);
+		}
+		return undefined;
+	}
+
 }
