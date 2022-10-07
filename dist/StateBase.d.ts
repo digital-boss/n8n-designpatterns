@@ -8,4 +8,6 @@ export declare class StateBase implements IState {
     getParam(name: string): any;
     getAllParams(): IDataObject;
     applyPathParams(path: string): string;
+    isParamExists(name: string): boolean;
+    tryGetParam(name: string): any;
 }

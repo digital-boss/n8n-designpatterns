@@ -94,6 +94,15 @@ var StateBase = class {
     }
     return path;
   }
+  isParamExists(name) {
+    return name in this.execFns.getNode().parameters;
+  }
+  tryGetParam(name) {
+    if (this.isParamExists(name)) {
+      return this.getParam(name);
+    }
+    return void 0;
+  }
 };
 
 // src/StaticDataBase.ts

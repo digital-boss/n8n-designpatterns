@@ -1,6 +1,6 @@
-import { OptionsWithUri } from 'request';
+import { IHttpRequestOptions } from 'n8n-workflow';
 export interface IHttpClient {
-    request: (opts: OptionsWithUri) => Promise<any>;
+    request: (opts: IHttpRequestOptions) => Promise<any>;
 }
 export declare type ItemExecFn = (itemIndex: number) => Promise<any>;
 export interface IState {
