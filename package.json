@@ -7,6 +7,9 @@
     "ts-types": "tsc --emitDeclarationOnly --outDir dist",
     "build": "rimraf dist && node esbuild.js && npm run ts-types"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digital-boss/n8n-designpatterns.git"
