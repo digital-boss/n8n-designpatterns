@@ -21,4 +21,4 @@ esbuild doesn't generate typescript declarations:
 
 ## Release a New Version
 
-Run `./release.sh <ver>`, for example `./release.sh 0.1.2`.
+Execute `npm run release`.
