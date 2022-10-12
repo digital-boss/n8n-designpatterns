@@ -1,12 +1,16 @@
 {
   "name": "@digital-boss/n8n-designpatterns",
-  "version": "0.1.4",
+  "version": "0.1.8",
   "description": "",
   "main": "index.js",
   "scripts": {
     "ts-types": "tsc --emitDeclarationOnly --outDir dist",
-    "build": "rimraf dist && node esbuild.js && npm run ts-types"
+    "build": "rimraf dist && node esbuild.js && npm run ts-types",
+    "release": "./release.sh"
   },
+  "files": [
+    "dist"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/digital-boss/n8n-designpatterns.git"
