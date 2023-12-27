@@ -1,4 +1,4 @@
-import { IDataObject, IExecuteFunctions } from 'n8n-workflow';
+import { IDataObject, IExecuteFunctions, IBinaryData } from 'n8n-workflow';
 import { IState } from './interfaces';
 
 /**
@@ -20,6 +20,13 @@ export class StateBase implements IState {
 
 	getParam (name: string): any {
 		return this.execFns.getNodeParameter(name, this.itemIndex);
+	}
+	
+	getParams(names: string[]) {
+		return names.reduce((acc, i) => {
+			acc[i] = this.getParam(i);
+			return acc;
+		}, {} as any);
 	}
 
 	getAllParams (): IDataObject {
@@ -51,6 +58,18 @@ export class StateBase implements IState {
 			return this.getParam(name);
 		}
 		return undefined;
+	}
+
+	getBinaryDataBuffer(dataPropertyName: string): Promise<Buffer> {
+		return this.execFns.helpers.getBinaryDataBuffer(this.itemIndex, dataPropertyName);
+	}
+
+	binaryToBuffer(buffer: Buffer): Promise<Buffer> {
+		return this.execFns.helpers.binaryToBuffer(buffer);
+	}
+
+	prepareBinaryData(buffer: Buffer): Promise<IBinaryData> {
+		return this.execFns.helpers.prepareBinaryData(buffer);
 	}
 
 }
